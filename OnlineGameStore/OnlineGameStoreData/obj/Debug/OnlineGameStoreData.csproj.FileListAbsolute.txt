@@ -1,0 +1,12 @@
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\OnlineGameStoreData.dll.config
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\OnlineGameStoreData.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\OnlineGameStoreData.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\EntityFramework.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\EntityFramework.SqlServer.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\EntityFramework.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\EntityFramework.SqlServer.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.csprojResolveAssemblyReference.cache
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.Initial.resources
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.csproj.GenerateResource.Cache
