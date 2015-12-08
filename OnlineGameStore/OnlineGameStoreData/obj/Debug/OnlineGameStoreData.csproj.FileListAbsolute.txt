@@ -10,3 +10,4 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGame
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.pdb
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.Initial.resources
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.csproj.GenerateResource.Cache
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.RemovedIds.resources
