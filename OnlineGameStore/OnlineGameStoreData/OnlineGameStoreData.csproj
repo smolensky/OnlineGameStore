@@ -49,6 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\ICommentEntityReader.cs" />
+    <Compile Include="Abstractions\ICommentEntityWriter.cs" />
+    <Compile Include="Abstractions\IGameEntityReader.cs" />
+    <Compile Include="Abstractions\IGameEntityWriter.cs" />
     <Compile Include="DatabaseContext.cs" />
     <Compile Include="Entities\CommentEntity.cs" />
     <Compile Include="Entities\GameEntity.cs" />
@@ -68,7 +72,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstractions\" />
     <Folder Include="EntityReaders\" />
     <Folder Include="EntityWriters\" />
   </ItemGroup>
