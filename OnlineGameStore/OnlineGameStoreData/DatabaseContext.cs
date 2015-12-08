@@ -3,7 +3,7 @@ using OnlineGameStoreData.Entities;
 
 namespace OnlineGameStoreData
 {
-    class DatabaseContext : DbContext
+    public class DatabaseContext : DbContext
     {
         public DbSet<GameEntity> Games { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }

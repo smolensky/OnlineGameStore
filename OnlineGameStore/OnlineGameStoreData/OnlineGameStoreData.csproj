@@ -60,6 +60,8 @@
     <Compile Include="Entities\GamePlatformTypeEntity.cs" />
     <Compile Include="Entities\GenreEntity.cs" />
     <Compile Include="Entities\PlatformTypeEntity.cs" />
+    <Compile Include="EntityReaders\CommentEntityReader.cs" />
+    <Compile Include="EntityReaders\GameEntityReader.cs" />
     <Compile Include="Migrations\201512081534369_Initial.cs" />
     <Compile Include="Migrations\201512081534369_Initial.Designer.cs">
       <DependentUpon>201512081534369_Initial.cs</DependentUpon>
@@ -72,7 +74,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EntityReaders\" />
     <Folder Include="EntityWriters\" />
   </ItemGroup>
   <ItemGroup>

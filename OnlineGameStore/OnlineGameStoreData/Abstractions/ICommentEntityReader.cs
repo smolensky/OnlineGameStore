@@ -5,6 +5,6 @@ namespace OnlineGameStoreData.Abstractions
 {
     public interface ICommentEntityReader
     {
-        IQueryable<GameEntity> ReadAll(GameEntity game);
+        IQueryable<CommentEntity> ReadAll(GameEntity game);
     }
 }
