@@ -37,3 +37,13 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\System.W
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\obj\Debug\OnlineGameStore.Tests.csprojResolveAssemblyReference.cache
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\obj\Debug\OnlineGameStore.Tests.dll
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\obj\Debug\OnlineGameStore.Tests.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\OnlineGameStore.Tests.dll.config
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.Web.Common.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\WebActivatorEx.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\OnlineGameStoreData.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\EntityFramework.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.Web.Common.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\OnlineGameStoreData.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\EntityFramework.xml

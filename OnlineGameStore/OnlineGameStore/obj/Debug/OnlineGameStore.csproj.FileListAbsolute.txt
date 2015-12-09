@@ -39,3 +39,17 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\System.Web.Http.WebH
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\obj\Debug\OnlineGameStore.csprojResolveAssemblyReference.cache
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\obj\Debug\OnlineGameStore.dll
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\obj\Debug\OnlineGameStore.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\OnlineGameStoreData.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\EntityFramework.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\OnlineGameStoreData.pdb
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\EntityFramework.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\EntityFramework.SqlServer.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.Web.Common.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\WebActivatorEx.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\EntityFramework.SqlServer.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.Web.Common.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.Web.Mvc.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.WebApi.DependencyResolver.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\bin\Ninject.Web.Mvc.xml

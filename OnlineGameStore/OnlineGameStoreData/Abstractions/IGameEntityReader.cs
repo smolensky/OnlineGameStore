@@ -10,5 +10,8 @@ namespace OnlineGameStoreData.Abstractions
     public interface IGameEntityReader
     {
         IQueryable<GameEntity> ReadAll();
+        GameEntity ReadByKey(string key);
+        IQueryable<GameEntity> ReadByGenre(GameGenreEntity gameGenre);
+        IQueryable<GameEntity> ReadByPlatformType(GamePlatformTypeEntity gamePlatformType);
     }
 }

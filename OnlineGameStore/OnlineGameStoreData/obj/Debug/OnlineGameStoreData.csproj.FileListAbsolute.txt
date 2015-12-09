@@ -11,3 +11,8 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGame
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.Initial.resources
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.csproj.GenerateResource.Cache
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.RemovedIds.resources
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.Web.Common.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.Web.Common.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.WebApi.DependencyResolver.dll
