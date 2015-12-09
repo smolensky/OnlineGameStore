@@ -4,6 +4,6 @@ namespace OnlineGameStoreData.Abstractions
 {
     public interface ICommentEntityWriter
     {
-        CommentEntity CreateComment(CommentEntity comment);
+        CommentEntity CreateComment(CommentEntity comment, GameEntity game);
     }
 }
