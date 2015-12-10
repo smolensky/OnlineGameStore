@@ -27,16 +27,17 @@ namespace OnlineGameStoreData.EntityReaders
             return result;
         }
 
-        public IQueryable<GameEntity> ReadByGenre(GameGenreEntity gameGenre)
+        public IQueryable<GameEntity> ReadByGenre(string gameGenre)
         {
-            var result = _databaseContext.Games.Where(x => x.Name == gameGenre.GameName);
-
-            return result;
+            var result = _databaseContext.GameGenres.Where(x => x.GenreName == gameGenre);
+            var result2 = _databaseContext.Games.Where(x => result.Any(y => y.GameName == x.Name));
+            
+            return result2;
         }
 
-        public IQueryable<GameEntity> ReadByPlatformType(GamePlatformTypeEntity gamePlatformType)
+        public IQueryable<GameEntity> ReadByPlatformType(string gamePlatformType)
         {
-            var result = _databaseContext.Games.Where(x => x.Name == gamePlatformType.GameName);
+            var result = _databaseContext.Games.Where(x => x.Name == gamePlatformType);
 
             return result;
         }

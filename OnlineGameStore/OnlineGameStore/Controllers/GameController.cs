@@ -27,11 +27,27 @@ namespace OnlineGameStore.Controllers
             return result;
         }
 
-        [Route("games/{id}")]
+        [Route("games/key")]
         [HttpGet]
         public GameEntity ReadGameByKey(string key = "1")
         {
             var result = _gameEntityReader.ReadByKey(key);
+            return result;
+        }
+
+        [Route("games/genre/{genre}")]
+        [HttpGet]
+        public IQueryable<GameEntity> ReadGameByGenre(string genre)
+        {
+            var result = _gameEntityReader.ReadByGenre(genre);
+            return result;
+        }
+
+        [Route("games/platform")]
+        [HttpGet]
+        public IQueryable<GameEntity> ReadGameByPlatformType(string type = "Desktop")
+        {
+            var result = _gameEntityReader.ReadByPlatformType(type);
             return result;
         }
     }

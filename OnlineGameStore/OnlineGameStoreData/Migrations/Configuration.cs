@@ -15,7 +15,7 @@ namespace OnlineGameStoreData.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(OnlineGameStoreData.DatabaseContext context)
+        protected override void Seed(DatabaseContext context)
         {
             //Filling Platform types
             context.PlatformTypes.AddOrUpdate(
