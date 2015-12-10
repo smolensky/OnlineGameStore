@@ -43,9 +43,9 @@ namespace OnlineGameStore.Controllers
             return result;
         }
 
-        [Route("games/platform")]
+        [Route("games/platform/{type}")]
         [HttpGet]
-        public IQueryable<GameEntity> ReadGameByPlatformType(string type = "Desktop")
+        public IQueryable<GameEntity> ReadGameByPlatformType(string type)
         {
             var result = _gameEntityReader.ReadByPlatformType(type);
             return result;
