@@ -13,9 +13,9 @@ namespace OnlineGameStoreData.EntityReaders
             _databaseContext = databaseContext;
         }
 
-        public IQueryable<CommentEntity> ReadAll(GameEntity game)
+        public IQueryable<CommentEntity> ReadCommentsByGameKey(string key)
         {
-            var result = _databaseContext.Comments.Where(x => x.Game.Key == game.Key);
+            var result = _databaseContext.Comments.Where(x => x.Game.Key == key);
             return result;
         }
     }

@@ -47,3 +47,4 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.Web.Common.xml
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\OnlineGameStoreData.pdb
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\EntityFramework.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore.Tests\bin\Debug\Ninject.WebApi.DependencyResolver.dll
