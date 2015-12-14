@@ -50,5 +50,26 @@ namespace OnlineGameStore.Controllers
             var result = _gameEntityReader.ReadByPlatformType(type);
             return result;
         }
+
+        [Route("games/new")]
+        [HttpPost]
+        public GameEntity CreateNewGame(GameEntity gameEntity)
+        {
+            // WARNING: HARDCODE
+            // It will work only once, Game.Key is key value and can't be repeated
+            if (gameEntity == null)
+            {
+                gameEntity = new GameEntity
+                {
+                    // TODO: gameKey should be writed another way
+                    Key = "5", 
+                    Name = "GameForTest",
+                    Description = "Was created to test writing to database"
+                };
+            }
+
+            var game = _gameEntityWriter.CreateGame(gameEntity);
+            return game;
+        }
     }
 }

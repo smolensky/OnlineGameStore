@@ -12,9 +12,8 @@ namespace OnlineGameStoreData.EntityWriters
             _databaseContext = databaseContext;
         }
 
-        public CommentEntity CreateComment(CommentEntity comment, GameEntity game)
+        public CommentEntity CreateComment(CommentEntity comment)
         {
-            comment.Game = game;
             var result = _databaseContext.Comments.Add(comment);
 
             _databaseContext.SaveChanges();
