@@ -16,3 +16,4 @@ E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.We
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.xml
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.Web.Common.xml
 E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Ninject.WebApi.DependencyResolver.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.IdForComments.resources

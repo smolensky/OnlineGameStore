@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Ninject.Web.Common;
 using OnlineGameStoreData;
 using OnlineGameStoreData.Abstractions;
 using OnlineGameStoreData.Entities;
@@ -35,17 +36,22 @@ namespace OnlineGameStore.Controllers
         [HttpPost]
         public CommentEntity CreateComment(string key, CommentEntity commentEntity)
         {
+            var game = _gameEntityReader.ReadByKey(key);
+
             if (commentEntity == null)
             {
                 commentEntity = new CommentEntity
                 {
-                    Game = _gameEntityReader.ReadByKey(key),
                     Name = "Commentator",
                     Body = "Test comment"
                 };
+
+                game.Comments = new[] {commentEntity};
             }
-            var result = _commentEntityWriter.CreateComment(commentEntity);
-            return result;
+
+
+            //var result = _commentEntityWriter.CreateComment(commentEntity);
+            return commentEntity;  //result;
         }
     }
 }

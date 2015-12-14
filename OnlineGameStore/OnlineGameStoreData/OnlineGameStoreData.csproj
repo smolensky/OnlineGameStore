@@ -84,6 +84,10 @@
     <Compile Include="Migrations\201512081622425_RemovedIds.Designer.cs">
       <DependentUpon>201512081622425_RemovedIds.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201512141040009_IdForComments.cs" />
+    <Compile Include="Migrations\201512141040009_IdForComments.Designer.cs">
+      <DependentUpon>201512141040009_IdForComments.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201512081622425_RemovedIds.resx">
       <DependentUpon>201512081622425_RemovedIds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512141040009_IdForComments.resx">
+      <DependentUpon>201512141040009_IdForComments.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
