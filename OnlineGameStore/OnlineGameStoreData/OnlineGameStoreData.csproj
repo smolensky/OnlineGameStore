@@ -88,6 +88,10 @@
     <Compile Include="Migrations\201512141040009_IdForComments.Designer.cs">
       <DependentUpon>201512141040009_IdForComments.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201512150818189_GameKeyFieldForComment.cs" />
+    <Compile Include="Migrations\201512150818189_GameKeyFieldForComment.Designer.cs">
+      <DependentUpon>201512150818189_GameKeyFieldForComment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -107,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201512141040009_IdForComments.resx">
       <DependentUpon>201512141040009_IdForComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512150818189_GameKeyFieldForComment.resx">
+      <DependentUpon>201512150818189_GameKeyFieldForComment.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,7 @@ namespace OnlineGameStoreData.Entities
         public string Name { get; set; }
         public string Body { get; set; }
         public string ParentName { get; set; }
+        public string GameKey { get; set; }
 
         public GameEntity Game { get; set; }
     }

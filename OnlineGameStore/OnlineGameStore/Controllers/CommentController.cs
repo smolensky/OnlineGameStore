@@ -36,8 +36,6 @@ namespace OnlineGameStore.Controllers
         [HttpPost]
         public CommentEntity CreateComment(string key, CommentEntity commentEntity)
         {
-            var game = _gameEntityReader.ReadByKey(key);
-
             if (commentEntity == null)
             {
                 commentEntity = new CommentEntity
@@ -45,13 +43,11 @@ namespace OnlineGameStore.Controllers
                     Name = "Commentator",
                     Body = "Test comment"
                 };
-
-                game.Comments = new[] {commentEntity};
             }
+            commentEntity.GameKey = key;
 
-
-            //var result = _commentEntityWriter.CreateComment(commentEntity);
-            return commentEntity;  //result;
+            var result = _commentEntityWriter.CreateComment(commentEntity);
+            return result;
         }
     }
 }
