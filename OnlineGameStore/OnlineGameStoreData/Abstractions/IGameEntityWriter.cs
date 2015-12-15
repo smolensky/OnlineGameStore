@@ -10,5 +10,6 @@ namespace OnlineGameStoreData.Abstractions
     public interface IGameEntityWriter
     {
         GameEntity CreateGame(GameEntity gameEntity);
+        void DeleteGame(string key);
     }
 }

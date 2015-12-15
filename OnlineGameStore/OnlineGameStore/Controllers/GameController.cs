@@ -71,5 +71,12 @@ namespace OnlineGameStore.Controllers
             var game = _gameEntityWriter.CreateGame(gameEntity);
             return game;
         }
+
+        [Route("games/remove/{key}")]
+        [HttpPost]
+        public void DeleteGame(string key)
+        {
+            _gameEntityWriter.DeleteGame(key);
+        }
     }
 }

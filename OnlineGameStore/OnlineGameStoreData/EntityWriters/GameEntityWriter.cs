@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using OnlineGameStoreData.Abstractions;
@@ -23,6 +24,17 @@ namespace OnlineGameStoreData.EntityWriters
 
             _databaseContext.SaveChanges();
             return result;
+        }
+
+        public void DeleteGame(string key)
+        {
+            var gameToDelete = _databaseContext.Games.FirstOrDefault(x => x.Key == key);
+            if (gameToDelete != null)
+            {
+                _databaseContext.Games.Remove(gameToDelete);
+            }
+
+            _databaseContext.SaveChanges();
         }
     }
 }
