@@ -47,7 +47,7 @@ namespace OnlineGameStore.Controllers
             commentEntity.GameKey = key;
 
             var result = _commentEntityWriter.CreateComment(commentEntity);
-            //return result;
+            return result;
         }
     }
 }
