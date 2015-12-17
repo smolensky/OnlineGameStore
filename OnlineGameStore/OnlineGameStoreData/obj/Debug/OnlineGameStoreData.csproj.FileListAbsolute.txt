@@ -42,3 +42,9 @@ D:\smolenskyi\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\OnlineGameSto
 D:\smolenskyi\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.dll
 D:\smolenskyi\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.pdb
 D:\smolenskyi\proj\OnlineGameStore\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.GameKeyFieldForComment.resources
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\System.Web.Http.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\System.Net.Http.Formatting.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\Newtonsoft.Json.dll
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\System.Web.Http.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\bin\Debug\System.Net.Http.Formatting.xml
+E:\proj\OnlineGameStore\OnlineGameStore\OnlineGameStoreData\obj\Debug\OnlineGameStoreData.Migrations.GameKeyFieldForComment.resources
